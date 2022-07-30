@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color:bisque;
+}
+
+h2{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 70px auto;
+    text-align: center;
+    
+}
+
+h2 span{
+    color: #ff0000;
+    text-decoration: underline black;
+
+}
+
+h3{
+    font-family: poppins;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 100px;
+
+}
+main div h1{
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    
+    text-align: center;
+}
+
+
+img{
+    width: 500px;
+    margin-left: 70px;
+    margin-bottom: 90px;
+    border: 1px solid black;
+}
+
+
+.project-list h3{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    color: antiquewhite;
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 90px;
+    background-color: #8323BA;
+}
+
+.github{
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: #603662;
+    color: antiquewhite;
+    font-family: Poppins;
+    font-size: 35px;
+    position: relative;
+    left: 50px; top: -220px;
+    margin-left: 30px;
+    border: none;
+    text-decoration: none;
+}
+
+.live{
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: #5D279D;
+    color: antiquewhite;
+    font-family: Poppins;
+    font-size: 35px;
+    position: relative;
+    left: 50px; top: -220px;
+    margin-left: 100px;
+    border: none;
+    text-decoration: none;
+}
